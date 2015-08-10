@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adventure</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mqueries.css" rel="stylesheet">
+    <script src="js/jquery-2.1.4.min.js" type="application/javascript"></script>
+    <script src="js/bootstrap.min.js" type="application/javascript"></script>
+</head>
+<body>
+<div class="pop-up">
+    <div>
+        <a href="#" class="close-modal">X</a>
+        <iframe id="modal-video" width="100%" height="100%" src="https://www.youtube.com/embed/S8LYjHm_ZJY?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="mobile-controls">
+    <button class="nav-control" id="menu"></button>
+</div>
+<div class="menu-sm">
+    <nav class="navbar">
+        <ul class="nav navbar-nav nav-options">
+            <li class="li-active"><a href="#">Все страны</a></li>
+            <li><a href="#">Культура</a></li>
+            <li><a href="#">Экстрим</a></li>
+            <li><a href="#">Атмосфера</a></li>
+            <li><a href="#">Люди</a></li>
+        </ul>
+    </nav>
+</div>
+<header>
+    <div class="container">
+        <div class="row">
+            <a href="#" id="logotip">
+                <img  data-src="img/logotip.png" class="lazyload"  alt="" />
+            </a>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row menu">
+        <nav class="navbar navbar-hd">
+           <ul class="nav navbar-nav nav-options">
+               <li class="li-active"><a href="#">Все страны</a></li>
+               <li><a href="#">Культура</a></li>
+               <li><a href="#">Экстрим</a></li>
+               <li><a href="#">Атмосфера</a></li>
+               <li><a href="#">Люди</a></li>
+           </ul>
+        </nav>
+    </div>
+</div>
+<div class="container">
+    <div class="row forow">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 into">
+            <div><img  data-src="img/latin-america2.jpg" class="lazyload" alt="" /></div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3 cuba">
+            <div id="cuba-0"><img  data-src="img/cuba-1.jpg" class="lazyload" alt="" /></div>
+            <div id="cuba-1"  style="display: none;"><img src="img/сuba-2.jpg" class="lazyload"  alt="" /></div>
+            <div id="cuba-2"  style="display: none;"><img src="img/cuba-3.jpg" class="lazyload" alt="" /></div>
+            <div id="cuba-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/BNUciokIwk0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='cuba-prev' href="" class="prev">Prev</a>
+                <a id='cuba-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="russia-0"><img  data-src="img/russia.jpg" class="lazyload"  alt="" /></div>
+            <div id="russia-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="russia-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="russia-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='russia-prev' href="" class="prev">Prev</a>
+                <a id='russia-next' href="" class="next">Next</a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="england-0" ><img  data-src="img/england.jpg" class="lazyload" alt="" /></div>
+            <div id="england-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="england-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="england-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='england-prev' href="" class="prev">Prev</a>
+                <a id='england-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="norway-0" ><img  data-src="img/norway.jpg" class="lazyload"  alt="" /></div>
+            <div id="norway-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="norway-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="norway-3"  style="display: none;">
+                <iframe class="lazyload"  width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='norway-prev' href="" class="prev">Prev</a>
+                <a id='norway-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="switzerland-0"><img  data-src="img/switzerland.jpg" class="lazyload" alt="" /></div>
+            <div id="switzerland-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="switzerland-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="switzerland-3"  style="display: none;">
+                <iframe class="lazyload"  width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='switzerland-prev' href="" class="prev">Prev</a>
+                <a id='switzerland-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="china-0"><img  data-src="img/china.jpg" class="lazyload" alt="" /></div>
+            <div id="china-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="china-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="china-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='china-prev' href="" class="prev">Prev</a>
+                <a id='china-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="germany-0"><img  data-src="img/germany.jpg" class="lazyload" alt="" /></div>
+            <div id="germany-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="germany-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="germany-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='germany-prev' href="" class="prev">Prev</a>
+                <a id='germany-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="japan-0"><img  data-src="img/japan.jpg" class="lazyload" alt="" /></div>
+            <div id="japan-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="japan-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="japan-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='japan-prev' href="" class="prev">Prev</a>
+                <a id='japan-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="austrlia-0"> <img  data-src="./img/austrlia.jpg" class="lazyload" alt="" /></div>
+            <div id="austrlia-1"  style="display: none;"><img src="img/сuba-2.jpg"  src="img/сuba-2.jpg" alt="" /></div>
+            <div id="austrlia-2"  style="display: none;"><img src="img/cuba-3.jpg"  alt="" /></div>
+            <div id="austrlia-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='austrlia-prev' href="" class="prev">Prev</a>
+                <a id='austrlia-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="india-0"><img  data-src="img/india.jpg" class="lazyload" alt="" /></div>
+            <div id="india-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="india-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="india-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='india-prev' href="" class="prev">Prev</a>
+                <a id='india-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="finland-0"><img  data-src="img/finland.jpg" class="lazyload"  alt="" /></div>
+            <div id="finland-1"  style="display: none;"><img  src="img/сuba-2.jpg" alt="" /></div>
+            <div id="finland-2"  style="display: none;"><img  src="img/cuba-3.jpg" alt="" /></div>
+            <div id="finland-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='finland-prev' href="" class="prev">Prev</a>
+                <a id='finland-next' href="" class="next">Next</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div id="newzealand-0"><img  data-src="img/newzealand.jpg" class="lazyload"  alt="" /></div>
+            <div id="newzealand-1"  style="display: none;"><img src="img/сuba-2.jpg" alt="" /></div>
+            <div id="newzealand-2"  style="display: none;"><img src="img/cuba-3.jpg" alt="" /></div>
+            <div id="newzealand-3"  style="display: none;">
+                <iframe class="lazyload" width="300" height="200" data-src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="controls-direction">
+                <a id='newzealand-prev' href="" class="prev">Prev</a>
+                <a id='newzealand-next' href="" class="next">Next</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="footer-year">© 2013 - 2015</div></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="footer-logotip">Здесь наследили <a href="#">CreativePeople</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/lazysizes.min.js" async=""></script>
+<script src="js/script.js" type="application/javascript"></script>
+</body>
+</html>
